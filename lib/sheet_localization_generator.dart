@@ -3,7 +3,7 @@ import 'dart:convert';
 
 import 'package:analyzer/dart/element/element.dart';
 import 'package:csv/csv.dart';
-import 'package:flutter_sheet_localization/flutter_sheet_localization.dart';
+import 'package:sheet_localization/sheet_localization.dart';
 import 'package:localization_builder/localization_builder.dart';
 import 'package:source_gen/source_gen.dart';
 import 'package:build/build.dart';

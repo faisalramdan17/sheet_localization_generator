@@ -1,6 +1,6 @@
 name: sheet_localization_generator
 description: Flutter localizations code generator from Google sheet files.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/faisalramdan17/sheet_localization_generator
 
 environment:
@@ -16,7 +16,7 @@ dependencies:
   recase: ^4.0.0
   dart_style: ^2.0.1
   source_gen: ^1.0.1
-  flutter_sheet_localization: ^5.1.0
+  sheet_localization: ^1.0.2
   build: ^2.0.2
   collection: ^1.15.0
   intl: ^0.17.0

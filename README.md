@@ -27,13 +27,13 @@ dev_dependencies:
 
 #### 1. Create a Google Sheet
 
-Create a sheet with your translations (following the bellow format, [an example sheet is available here](https://docs.google.com/spreadsheets/d/1AcjI1BjmQpjlnPUZ7aVLbrnVR98xtATnSjU4CExM9fs/edit#gid=0)) :
+Create a sheet with your translations (following the bellow format, [an example sheet is available here](https://docs.google.com/spreadsheets/d/11ostd6A0pFe8VnScOSutj33GJGNgUhemm6fp_RN2leo/edit#gid=0) :
 
-![example](https://github.com/faisalramdan17/sheet_localization/raw/master/sheet_localization_generator/example.png)
+![example](https://raw.githubusercontent.com/faisalramdan17/sheet_localization_generator/main/example.png)
 
 Make sure that your sheet is shared :
 
-![share](https://github.com/faisalramdan17/sheet_localization/raw/master/sheet_localization_generator/share.png)
+![share](https://raw.githubusercontent.com/faisalramdan17/sheet_localization_generator/main/share.png)
 
 Extract from the link the `DOCID` and `SHEETID` values : `https://docs.google.com/spreadsheets/d/<DOCID>/edit#gid=<SHEETID>`) :
 

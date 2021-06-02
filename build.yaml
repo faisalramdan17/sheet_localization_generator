@@ -1,15 +1,15 @@
 targets:
   $default:
     builders:
-      sheet_localization_generator|flutter_sheet_localization:
+      sheet_localization_generator|sheet_localization:
         enabled: true
 
 builders:
-  flutter_sheet_localization:
+  sheet_localization:
     target: ":sheet_localization_generator"
     import: "package:sheet_localization_generator/builder.dart"
     builder_factories: ["flutterSheetLocalization"]
-    build_extensions: {".dart": [".flutter_sheet_localization.g.part"]}
+    build_extensions: {".dart": [".sheet_localization.g.part"]}
     auto_apply: dependents
     build_to: cache
     applies_builders: ["source_gen|combining_builder"]
